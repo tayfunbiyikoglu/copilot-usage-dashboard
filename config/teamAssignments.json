@@ -1,0 +1,319 @@
+{
+  "description": "Application-owned team mapping for GitHub Copilot dashboard team views. Edit this file when GitHub org teams are unavailable or not maintained.",
+  "generatedFrom": {
+    "source": "github",
+    "reportStart": "2026-04-22",
+    "reportEnd": "2026-05-19",
+    "generatedAt": "2026-05-20T14:22:09.901Z",
+    "userCount": 45
+  },
+  "teams": [
+    {
+      "id": "platform-engineering",
+      "name": "Platform Engineering",
+      "manager": "Manager 1"
+    },
+    {
+      "id": "product-experience",
+      "name": "Product Experience",
+      "manager": "Manager 2"
+    },
+    {
+      "id": "data-analytics",
+      "name": "Data & Analytics",
+      "manager": "Manager 3"
+    },
+    {
+      "id": "security-engineering",
+      "name": "Security Engineering",
+      "manager": "Manager 4"
+    },
+    {
+      "id": "mobile-engineering",
+      "name": "Mobile Engineering",
+      "manager": "Manager 5"
+    },
+    {
+      "id": "core-services",
+      "name": "Core Services",
+      "manager": "Manager 6"
+    },
+    {
+      "id": "developer-productivity",
+      "name": "Developer Productivity",
+      "manager": "Manager 7"
+    }
+  ],
+  "users": [
+    {
+      "displayName": "Rizaho",
+      "login": "rizaho",
+      "team": "Platform Engineering",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Cantez",
+      "login": "cantez-ceb",
+      "team": "Product Experience",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Anca Sotir",
+      "login": "anca-sotir-nb",
+      "team": "Data & Analytics",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Derya Kupeli",
+      "login": "DeryaKupeli88",
+      "team": "Security Engineering",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Ovunckarabeyoglu",
+      "login": "ovunckarabeyoglu",
+      "team": "Mobile Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Romeo Next Bank",
+      "login": "RomeoNextBank",
+      "team": "Core Services",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Andrei Serban",
+      "login": "andrei-serban-nexent",
+      "team": "Developer Productivity",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Ufukdogdu",
+      "login": "ufukdogdunexentbank",
+      "team": "Platform Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Maksym Zavadskyi",
+      "login": "maksym-zavadskyi",
+      "team": "Product Experience",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Mirceatirea",
+      "login": "mirceatirea",
+      "team": "Data & Analytics",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Hande Sahin",
+      "login": "hande-sahin",
+      "team": "Security Engineering",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Ozgebalc",
+      "login": "ozgebalc",
+      "team": "Mobile Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Yusufkoraman",
+      "login": "yusufkoraman-nexent",
+      "team": "Core Services",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Andrii Yezenitskyi",
+      "login": "andrii-yezenitskyi-ceb",
+      "team": "Developer Productivity",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Kdproto",
+      "login": "kdproto",
+      "team": "Platform Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Altaygurkan",
+      "login": "altaygurkan",
+      "team": "Product Experience",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Enginasolar",
+      "login": "enginasolar",
+      "team": "Data & Analytics",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Vlad Titel",
+      "login": "vlad-titel",
+      "team": "Security Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Huseyin Aptioglu",
+      "login": "huseyin-aptioglu-ceb",
+      "team": "Mobile Engineering",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Serhat Dev",
+      "login": "serhat-dev",
+      "team": "Core Services",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Emreda",
+      "login": "emreda-nexent",
+      "team": "Developer Productivity",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Yurii Tseplitskyi",
+      "login": "yurii-tseplitskyi",
+      "team": "Platform Engineering",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Alexandrucontu",
+      "login": "alexandrucontu",
+      "team": "Product Experience",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Bogdan Shevchuk",
+      "login": "bogdan-shevchuk",
+      "team": "Data & Analytics",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Safak Sah",
+      "login": "SafakSah",
+      "team": "Security Engineering",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Alexakkol",
+      "login": "alexakkol",
+      "team": "Mobile Engineering",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Davidraileanu",
+      "login": "davidraileanu",
+      "team": "Core Services",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Uakinci",
+      "login": "uakinci",
+      "team": "Developer Productivity",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Volodymyr",
+      "login": "volodymyr-nexent",
+      "team": "Platform Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Tayfun Biyikoglu",
+      "login": "tayfun-biyikoglu",
+      "team": "Product Experience",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Bunyamin Yasar",
+      "login": "BunyaminYasar20",
+      "team": "Data & Analytics",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Ozlembasal",
+      "login": "ozlembasal00",
+      "team": "Security Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Angelababarada",
+      "login": "angelababaradaNextentbank",
+      "team": "Mobile Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Oleksandrget",
+      "login": "oleksandrget",
+      "team": "Core Services",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Cuneytykaya",
+      "login": "cebcuneytykaya",
+      "team": "Developer Productivity",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Emelozbek",
+      "login": "emelozbek",
+      "team": "Platform Engineering",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Burakgayretli",
+      "login": "burakgayretli",
+      "team": "Product Experience",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Remzis",
+      "login": "remzis-nexent",
+      "team": "Data & Analytics",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Vitalii Bal",
+      "login": "VitaliiBal",
+      "team": "Security Engineering",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Yasinynxtbank",
+      "login": "yasinynxtbank",
+      "team": "Mobile Engineering",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Metiny",
+      "login": "metinynexentbank",
+      "team": "Core Services",
+      "role": "Lead engineer"
+    },
+    {
+      "displayName": "Ggulnalbant",
+      "login": "ggulnalbant",
+      "team": "Developer Productivity",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Ahmetpolat Credit Europe Bank",
+      "login": "ahmetpolatCreditEuropeBank",
+      "team": "Platform Engineering",
+      "role": "Senior engineer"
+    },
+    {
+      "displayName": "Sercanu",
+      "login": "sercanunexentbank",
+      "team": "Product Experience",
+      "role": "Engineer"
+    },
+    {
+      "displayName": "Oanam",
+      "login": "oanam91",
+      "team": "Data & Analytics",
+      "role": "Engineer"
+    }
+  ]
+}

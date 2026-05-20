@@ -22,7 +22,6 @@ import {
   ChevronDown,
   CircleDot,
   Filter,
-  GitPullRequest,
   HelpCircle,
   LayoutDashboard,
   Moon,
@@ -157,7 +156,7 @@ const railItems: Array<{ tab: Tab; label: string; icon: typeof LayoutDashboard }
   { tab: 'Users', label: 'Users', icon: Users },
   { tab: 'Teams', label: 'Teams', icon: Network },
   { tab: 'Models', label: 'Models', icon: Bot },
-  { tab: 'Actions', label: 'Actions', icon: GitPullRequest },
+  { tab: 'Actions', label: 'Actions', icon: CheckCircle2 },
 ]
 
 function formatNumber(value: number) {
@@ -251,7 +250,6 @@ function App() {
       { label: 'Chat users', value: chatUsers, icon: Sparkles, tone: 'blue' },
       { label: 'Agent users', value: agentUsers, icon: Bot, tone: 'violet' },
       { label: 'CLI users', value: cliUsers, icon: Terminal, tone: 'gray' },
-      { label: 'Code review users', value: Math.max(0, Math.round(agentUsers * 1.6)), icon: GitPullRequest, tone: 'amber' },
       { label: 'Inactive seats', value: inactive, icon: CheckCircle2, tone: 'red' },
     ]
   }, [dashboard.users.length, filteredUsers])
@@ -872,7 +870,12 @@ function UserDetail({ selectedUser }: { selectedUser: CopilotUser }) {
 
   return (
     <div className="user-detail">
-      <PanelHeader title={selectedUser.login} meta={selectedUser.status} />
+      <header className="user-detail-header">
+        <h2>
+          {selectedUser.login}
+          <span>({selectedUser.status})</span>
+        </h2>
+      </header>
       <div className="person-title">
         <strong>{selectedUser.displayName ?? selectedUser.login}</strong>
         <span>{selectedUser.role ?? 'GitHub Copilot user'}</span>

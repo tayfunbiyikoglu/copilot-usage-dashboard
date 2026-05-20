@@ -704,6 +704,24 @@ h2 .help-hint {
   padding-bottom: 6px;
 }
 
+.user-detail-header {
+  padding: 16px 56px 8px 16px;
+}
+
+.user-detail-header h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 15px;
+}
+
+.user-detail-header h2 span {
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 650;
+}
+
 .help-modal {
   position: relative;
   width: min(720px, calc(100vw - 48px));
